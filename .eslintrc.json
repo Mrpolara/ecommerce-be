@@ -3,6 +3,10 @@
       "es2021": true,
       "node": true
    },
+   "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+   },
    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
    "plugins": ["prettier", "filenames"],
    "rules": {
@@ -15,7 +19,6 @@
          "error",
          "single",
          { "allowTemplateLiterals": true, "avoidEscape": true }
-      ],
-      "filenames/match-regex": ["error", "^[a-z][a-zA-Z0-9]*$", true]
+      ]
    }
 }
