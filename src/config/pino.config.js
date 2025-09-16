@@ -1,14 +1,15 @@
 import pino from 'pino';
 
+const helperFunctionPath = '../helpers/pino.helper.js';
+
 const logger = pino({
-   transport: {
-      target: 'pino-pretty', // enables colored, pretty logs
-      options: {
-         colorize: true,
-         translateTime: 'SYS:standard', // adds timestamp
-         ignore: 'pid,hostname' // remove extra fields
-      }
-   }
+    transport: {
+        target: helperFunctionPath,
+        options: {
+            colorize: true,
+            ignore: 'pid,hostname,name,level,time',
+        },
+    },
 });
 
 export default logger;

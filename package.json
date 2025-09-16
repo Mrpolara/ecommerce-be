@@ -1,46 +1,46 @@
 {
-   "name": "backend",
-   "version": "1.0.0",
-   "description": "",
-   "main": "src/index.js",
-   "scripts": {
-      "dev": "nodemon ./src/index.js",
-      "start": "node ./src/index.js",
-      "lint": "eslint . --ext .js",
-      "lint:fix": "eslint . --ext .js --fix",
-      "format": "prettier --write ."
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Mrpolara/be-ecommerce.git"
-   },
-   "keywords": [],
-   "author": "",
-   "license": "ISC",
-   "type": "module",
-   "bugs": {
-      "url": "https://github.com/Mrpolara/be-ecommerce/issues"
-   },
-   "homepage": "https://github.com/Mrpolara/be-ecommerce#readme",
-   "dependencies": {
-      "chalk": "^5.6.0",
-      "cloudinary": "^2.7.0",
-      "dotenv": "^17.2.2",
-      "express": "^5.1.0",
-      "helmet": "^8.1.0",
-      "joi": "^18.0.1",
-      "nodemailer": "^7.0.6",
-      "pino": "^9.9.4",
-      "pino-http": "^10.5.0",
-      "pino-pretty": "^13.1.1",
-      "razorpay": "^2.9.6",
-      "sequelize": "^6.37.7",
-      "twilio": "^5.9.0"
-   },
-   "devDependencies": {
-      "eslint": "^8.57.1",
-      "eslint-config-prettier": "^10.1.8",
-      "eslint-plugin-prettier": "^5.5.4",
-      "prettier": "^3.6.2"
-   }
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "nodemon ./src/index.js",
+        "start": "node ./src/index.js",
+        "lint": "eslint . --ext .js",
+        "lint:fix": "eslint . --ext .js --fix",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mrpolara/be-ecommerce.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/Mrpolara/be-ecommerce/issues"
+    },
+    "homepage": "https://github.com/Mrpolara/be-ecommerce#readme",
+    "dependencies": {
+        "chalk": "^5.6.0",
+        "cloudinary": "^2.7.0",
+        "dotenv": "^17.2.2",
+        "express": "^5.1.0",
+        "helmet": "^8.1.0",
+        "joi": "^18.0.1",
+        "nodemailer": "^7.0.6",
+        "pino": "^9.9.5",
+        "pino-http": "^10.5.0",
+        "pino-pretty": "^13.1.1",
+        "razorpay": "^2.9.6",
+        "sequelize": "^6.37.7",
+        "twilio": "^5.9.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "prettier": "^3.6.2"
+    }
 }
